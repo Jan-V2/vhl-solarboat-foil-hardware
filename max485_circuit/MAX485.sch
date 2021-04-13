@@ -1,0 +1,387 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_UART:MAX485E U?
+U 1 1 606F5225
+P 3450 2800
+AR Path="/606F5225" Ref="U?"  Part="1" 
+AR Path="/606F1EAE/606F5225" Ref="U201"  Part="1" 
+AR Path="/606B8EF6/606F5225" Ref="U301"  Part="1" 
+AR Path="/606BACEA/606F5225" Ref="U301"  Part="1" 
+F 0 "U201" H 3250 3400 50  0000 C CNN
+F 1 "MAX485E" H 3250 3300 50  0000 C CNN
+F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 3450 2100 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf" H 3450 2850 50  0001 C CNN
+	1    3450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 606F522B
+P 4200 2750
+AR Path="/606F522B" Ref="JP?"  Part="1" 
+AR Path="/606F1EAE/606F522B" Ref="JP201"  Part="1" 
+AR Path="/606B8EF6/606F522B" Ref="JP301"  Part="1" 
+AR Path="/606BACEA/606F522B" Ref="JP301"  Part="1" 
+F 0 "JP201" H 4200 3000 50  0000 C CNN
+F 1 "bus terminator" H 4200 2900 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4200 2750 50  0001 C CNN
+F 3 "~" H 4200 2750 50  0001 C CNN
+	1    4200 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2700 4050 2700
+Wire Wire Line
+	4050 2700 4050 2750
+$Comp
+L Device:R R?
+U 1 1 606F5233
+P 4200 2900
+AR Path="/606F5233" Ref="R?"  Part="1" 
+AR Path="/606F1EAE/606F5233" Ref="R205"  Part="1" 
+AR Path="/606B8EF6/606F5233" Ref="R305"  Part="1" 
+AR Path="/606BACEA/606F5233" Ref="R305"  Part="1" 
+F 0 "R205" V 4350 2900 50  0000 C CNN
+F 1 "120R" V 4450 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4130 2900 50  0001 C CNN
+F 3 "~" H 4200 2900 50  0001 C CNN
+	1    4200 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 3000 4050 3000
+Wire Wire Line
+	4350 2750 4350 2900
+Wire Wire Line
+	4050 2900 4050 3000
+Connection ~ 4050 3000
+Wire Wire Line
+	3050 2900 2625 2900
+Wire Wire Line
+	2625 2900 2625 2550
+$Comp
+L power:+5V #PWR?
+U 1 1 606F523F
+P 3450 2250
+AR Path="/606F523F" Ref="#PWR?"  Part="1" 
+AR Path="/606F1EAE/606F523F" Ref="#PWR0101"  Part="1" 
+AR Path="/606B8EF6/606F523F" Ref="#PWR0108"  Part="1" 
+AR Path="/606BACEA/606F523F" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0101" H 3450 2100 50  0001 C CNN
+F 1 "+5V" H 3450 2400 50  0000 C CNN
+F 2 "" H 3450 2250 50  0001 C CNN
+F 3 "" H 3450 2250 50  0001 C CNN
+	1    3450 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2250 3450 2300
+$Comp
+L power:GND #PWR?
+U 1 1 606F5246
+P 3450 3450
+AR Path="/606F5246" Ref="#PWR?"  Part="1" 
+AR Path="/606F1EAE/606F5246" Ref="#PWR0102"  Part="1" 
+AR Path="/606B8EF6/606F5246" Ref="#PWR0109"  Part="1" 
+AR Path="/606BACEA/606F5246" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0102" H 3450 3200 50  0001 C CNN
+F 1 "GND" H 3455 3277 50  0000 C CNN
+F 2 "" H 3450 3450 50  0001 C CNN
+F 3 "" H 3450 3450 50  0001 C CNN
+	1    3450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3450 3450 3400
+$Comp
+L Device:R R?
+U 1 1 606F524D
+P 4600 3200
+AR Path="/606F524D" Ref="R?"  Part="1" 
+AR Path="/606F1EAE/606F524D" Ref="R207"  Part="1" 
+AR Path="/606B8EF6/606F524D" Ref="R307"  Part="1" 
+AR Path="/606BACEA/606F524D" Ref="R307"  Part="1" 
+F 0 "R207" H 4670 3246 50  0000 L CNN
+F 1 "20K" H 4670 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4530 3200 50  0001 C CNN
+F 3 "~" H 4600 3200 50  0001 C CNN
+	1    4600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 606F5253
+P 4600 2500
+AR Path="/606F5253" Ref="R?"  Part="1" 
+AR Path="/606F1EAE/606F5253" Ref="R206"  Part="1" 
+AR Path="/606B8EF6/606F5253" Ref="R306"  Part="1" 
+AR Path="/606BACEA/606F5253" Ref="R306"  Part="1" 
+F 0 "R206" H 4670 2546 50  0000 L CNN
+F 1 "20K" H 4670 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4530 2500 50  0001 C CNN
+F 3 "~" H 4600 2500 50  0001 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2700 4600 2700
+Wire Wire Line
+	4600 2700 4600 2650
+Connection ~ 4050 2700
+Wire Wire Line
+	4600 3000 4600 3050
+Wire Wire Line
+	4050 3000 4600 3000
+$Comp
+L power:+5V #PWR?
+U 1 1 606F525E
+P 4600 3450
+AR Path="/606F525E" Ref="#PWR?"  Part="1" 
+AR Path="/606F1EAE/606F525E" Ref="#PWR0103"  Part="1" 
+AR Path="/606B8EF6/606F525E" Ref="#PWR0110"  Part="1" 
+AR Path="/606BACEA/606F525E" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0103" H 4600 3300 50  0001 C CNN
+F 1 "+5V" H 4600 3600 50  0000 C CNN
+F 2 "" H 4600 3450 50  0001 C CNN
+F 3 "" H 4600 3450 50  0001 C CNN
+	1    4600 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 606F5264
+P 4600 2250
+AR Path="/606F5264" Ref="#PWR?"  Part="1" 
+AR Path="/606F1EAE/606F5264" Ref="#PWR0104"  Part="1" 
+AR Path="/606B8EF6/606F5264" Ref="#PWR0111"  Part="1" 
+AR Path="/606BACEA/606F5264" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0104" H 4600 2000 50  0001 C CNN
+F 1 "GND" H 4605 2077 50  0000 C CNN
+F 2 "" H 4600 2250 50  0001 C CNN
+F 3 "" H 4600 2250 50  0001 C CNN
+	1    4600 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 2250 4600 2350
+Wire Wire Line
+	4600 3350 4600 3450
+$Comp
+L Connector:Screw_Terminal_01x04 J?
+U 1 1 606F526C
+P 4900 2800
+AR Path="/606F526C" Ref="J?"  Part="1" 
+AR Path="/606F1EAE/606F526C" Ref="J201"  Part="1" 
+AR Path="/606B8EF6/606F526C" Ref="J301"  Part="1" 
+AR Path="/606BACEA/606F526C" Ref="J301"  Part="1" 
+F 0 "J201" H 4980 2792 50  0000 L CNN
+F 1 "RS485 out" H 4980 2701 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal" H 4900 2800 50  0001 C CNN
+F 3 "~" H 4900 2800 50  0001 C CNN
+	1    4900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3000 4600 3000
+Connection ~ 4600 3000
+Wire Wire Line
+	4600 3000 4600 2800
+Wire Wire Line
+	4600 2800 4700 2800
+Wire Wire Line
+	4700 2900 4650 2900
+Wire Wire Line
+	4650 2900 4650 2700
+Wire Wire Line
+	4650 2700 4600 2700
+Connection ~ 4600 2700
+Wire Wire Line
+	4650 2700 4700 2700
+Connection ~ 4650 2700
+$Comp
+L Device:R R?
+U 1 1 606F527C
+P 2775 2400
+AR Path="/606F527C" Ref="R?"  Part="1" 
+AR Path="/606F1EAE/606F527C" Ref="R203"  Part="1" 
+AR Path="/606B8EF6/606F527C" Ref="R303"  Part="1" 
+AR Path="/606BACEA/606F527C" Ref="R303"  Part="1" 
+F 0 "R203" V 2850 2350 50  0000 L CNN
+F 1 "10K" V 2775 2350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2705 2400 50  0001 C CNN
+F 3 "~" H 2775 2400 50  0001 C CNN
+	1    2775 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 606F5282
+P 2625 2400
+AR Path="/606F5282" Ref="R?"  Part="1" 
+AR Path="/606F1EAE/606F5282" Ref="R202"  Part="1" 
+AR Path="/606B8EF6/606F5282" Ref="R302"  Part="1" 
+AR Path="/606BACEA/606F5282" Ref="R302"  Part="1" 
+F 0 "R202" V 2700 2350 50  0000 L CNN
+F 1 "10K" V 2625 2350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2555 2400 50  0001 C CNN
+F 3 "~" H 2625 2400 50  0001 C CNN
+	1    2625 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 606F5288
+P 2475 2400
+AR Path="/606F5288" Ref="R?"  Part="1" 
+AR Path="/606F1EAE/606F5288" Ref="R201"  Part="1" 
+AR Path="/606B8EF6/606F5288" Ref="R301"  Part="1" 
+AR Path="/606BACEA/606F5288" Ref="R301"  Part="1" 
+F 0 "R201" V 2550 2350 50  0000 L CNN
+F 1 "10K" V 2475 2350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2405 2400 50  0001 C CNN
+F 3 "~" H 2475 2400 50  0001 C CNN
+	1    2475 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 3000 2475 2550
+Wire Wire Line
+	2475 2250 2475 2200
+Wire Wire Line
+	2475 2200 2625 2200
+Wire Wire Line
+	2625 2200 2625 2250
+Wire Wire Line
+	2775 2200 2775 2250
+Wire Wire Line
+	2775 2550 2775 2800
+Wire Wire Line
+	2925 2700 2925 2550
+Wire Wire Line
+	2925 2200 2925 2250
+$Comp
+L Device:R R?
+U 1 1 606F5296
+P 2925 2400
+AR Path="/606F5296" Ref="R?"  Part="1" 
+AR Path="/606F1EAE/606F5296" Ref="R204"  Part="1" 
+AR Path="/606B8EF6/606F5296" Ref="R304"  Part="1" 
+AR Path="/606BACEA/606F5296" Ref="R304"  Part="1" 
+F 0 "R204" V 3000 2350 50  0000 L CNN
+F 1 "10K" V 2925 2350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2855 2400 50  0001 C CNN
+F 3 "~" H 2925 2400 50  0001 C CNN
+	1    2925 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2775 2200
+Wire Wire Line
+	2775 2200 2925 2200
+Wire Wire Line
+	2625 2200 2700 2200
+Connection ~ 2625 2200
+Connection ~ 2475 3000
+Wire Wire Line
+	2475 3000 3050 3000
+Connection ~ 2625 2900
+Connection ~ 2775 2800
+Wire Wire Line
+	2775 2800 3050 2800
+Connection ~ 2925 2700
+Wire Wire Line
+	2925 2700 3050 2700
+Wire Wire Line
+	2300 2900 2625 2900
+Wire Wire Line
+	2300 2800 2775 2800
+Wire Wire Line
+	2300 3000 2475 3000
+Wire Wire Line
+	2300 2700 2925 2700
+$Comp
+L power:+5V #PWR?
+U 1 1 606F52AB
+P 2700 2175
+AR Path="/606F52AB" Ref="#PWR?"  Part="1" 
+AR Path="/606F1EAE/606F52AB" Ref="#PWR0105"  Part="1" 
+AR Path="/606B8EF6/606F52AB" Ref="#PWR0112"  Part="1" 
+AR Path="/606BACEA/606F52AB" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0105" H 2700 2025 50  0001 C CNN
+F 1 "+5V" H 2700 2325 50  0000 C CNN
+F 2 "" H 2700 2175 50  0001 C CNN
+F 3 "" H 2700 2175 50  0001 C CNN
+	1    2700 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2175 2700 2200
+Connection ~ 2700 2200
+Wire Wire Line
+	2700 2200 2775 2200
+$Comp
+L Device:C C201
+U 1 1 606F64A9
+P 3900 1875
+AR Path="/606F1EAE/606F64A9" Ref="C201"  Part="1" 
+AR Path="/606B8EF6/606F64A9" Ref="C301"  Part="1" 
+AR Path="/606BACEA/606F64A9" Ref="C301"  Part="1" 
+F 0 "C201" H 4015 1921 50  0000 L CNN
+F 1 "100nf" H 4015 1830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 3938 1725 50  0001 C CNN
+F 3 "~" H 3900 1875 50  0001 C CNN
+	1    3900 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 606F6B57
+P 3900 1725
+AR Path="/606F6B57" Ref="#PWR?"  Part="1" 
+AR Path="/606F1EAE/606F6B57" Ref="#PWR0106"  Part="1" 
+AR Path="/606B8EF6/606F6B57" Ref="#PWR0113"  Part="1" 
+AR Path="/606BACEA/606F6B57" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0106" H 3900 1575 50  0001 C CNN
+F 1 "+5V" H 3900 1875 50  0000 C CNN
+F 2 "" H 3900 1725 50  0001 C CNN
+F 3 "" H 3900 1725 50  0001 C CNN
+	1    3900 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 606F6EBB
+P 3900 2025
+AR Path="/606F6EBB" Ref="#PWR?"  Part="1" 
+AR Path="/606F1EAE/606F6EBB" Ref="#PWR0107"  Part="1" 
+AR Path="/606B8EF6/606F6EBB" Ref="#PWR0114"  Part="1" 
+AR Path="/606BACEA/606F6EBB" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0107" H 3900 1775 50  0001 C CNN
+F 1 "GND" H 3905 1852 50  0000 C CNN
+F 2 "" H 3900 2025 50  0001 C CNN
+F 3 "" H 3900 2025 50  0001 C CNN
+	1    3900 2025
+	1    0    0    -1  
+$EndComp
+Text HLabel 2300 2800 0    50   Input ~ 0
+Reciever_enable
+Text HLabel 2300 2900 0    50   Input ~ 0
+Driver_enable
+Text HLabel 2300 3000 0    50   Input ~ 0
+Driver_in
+Text HLabel 2300 2700 0    50   Input ~ 0
+Reciever_out
+$EndSCHEMATC

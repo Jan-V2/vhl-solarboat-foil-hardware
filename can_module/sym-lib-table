@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name nucleo_can-rescue)(type Legacy)(uri ${KIPRJMOD}/nucleo_can-rescue.lib)(options "")(descr ""))
+  (lib (name zonneboot_parts)(type Legacy)(uri ${KIPRJMOD}/zonneboot_parts.lib)(options "")(descr ""))
+)

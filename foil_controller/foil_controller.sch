@@ -1,0 +1,785 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L YAAJ_STM32:BluePill_1 BP1
+U 1 1 5F50A359
+P 7200 3300
+AR Path="/5F50A359" Ref="BP1"  Part="1" 
+AR Path="/5F4FB867/5F50A359" Ref="BP?"  Part="1" 
+F 0 "BP1" H 7775 1135 50  0000 C CNN
+F 1 "BluePill_1" H 7775 1226 50  0000 C CNN
+F 2 "smt32:YAAJ_BluePill" H 8450 1350 50  0001 C CNN
+F 3 "" H 8450 1350 50  0001 C CNN
+	1    7200 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5F50A35F
+P 7600 1500
+AR Path="/5F50A35F" Ref="#PWR0101"  Part="1" 
+AR Path="/5F4FB867/5F50A35F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 7600 1350 50  0001 C CNN
+F 1 "+5V" H 7615 1673 50  0000 C CNN
+F 2 "" H 7600 1500 50  0001 C CNN
+F 3 "" H 7600 1500 50  0001 C CNN
+	1    7600 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 1550 7600 1500
+$Comp
+L power:GND #PWR0102
+U 1 1 5F50A367
+P 7450 1450
+AR Path="/5F50A367" Ref="#PWR0102"  Part="1" 
+AR Path="/5F4FB867/5F50A367" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0102" H 7450 1200 50  0001 C CNN
+F 1 "GND" H 7455 1277 50  0000 C CNN
+F 2 "" H 7450 1450 50  0001 C CNN
+F 3 "" H 7450 1450 50  0001 C CNN
+	1    7450 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1450 7400 1450
+Wire Wire Line
+	5850 3150 5750 3150
+Wire Wire Line
+	5750 3150 5750 3250
+Wire Wire Line
+	5750 3250 5850 3250
+Wire Wire Line
+	5750 3250 5750 3300
+Connection ~ 5750 3250
+$Comp
+L power:GND #PWR0103
+U 1 1 5F50A373
+P 5750 3300
+AR Path="/5F50A373" Ref="#PWR0103"  Part="1" 
+AR Path="/5F4FB867/5F50A373" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0103" H 5750 3050 50  0001 C CNN
+F 1 "GND" H 5755 3127 50  0000 C CNN
+F 2 "" H 5750 3300 50  0001 C CNN
+F 3 "" H 5750 3300 50  0001 C CNN
+	1    5750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5F50A39E
+P 5750 3050
+F 0 "#PWR0104" H 5750 2900 50  0001 C CNN
+F 1 "+3.3V" H 5692 3087 50  0000 R CNN
+F 2 "" H 5750 3050 50  0001 C CNN
+F 3 "" H 5750 3050 50  0001 C CNN
+	1    5750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3050 5850 3050
+Text GLabel 7500 2650 2    50   Input ~ 0
+prog_RX
+Text GLabel 7500 2750 2    50   Input ~ 0
+prog_TX
+Wire Wire Line
+	7400 2750 7500 2750
+Wire Wire Line
+	7500 2650 7400 2650
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 5F5138EB
+P 7450 1300
+F 0 "#PWR0105" H 7450 1150 50  0001 C CNN
+F 1 "+3.3V" H 7392 1337 50  0000 R CNN
+F 2 "" H 7450 1300 50  0001 C CNN
+F 3 "" H 7450 1300 50  0001 C CNN
+	1    7450 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1350 7450 1350
+Wire Wire Line
+	7450 1350 7450 1300
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5F515947
+P 8650 1300
+F 0 "J1" H 8622 1232 50  0000 R CNN
+F 1 "programming_header" H 8622 1323 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8650 1300 50  0001 C CNN
+F 3 "~" H 8650 1300 50  0001 C CNN
+	1    8650 1300
+	-1   0    0    1   
+$EndComp
+Text GLabel 8350 1300 0    50   Input ~ 0
+prog_RX
+Text GLabel 8350 1200 0    50   Input ~ 0
+prog_TX
+Wire Wire Line
+	8450 1200 8350 1200
+Wire Wire Line
+	8350 1300 8450 1300
+$Comp
+L power:GND #PWR0106
+U 1 1 5F517454
+P 8400 1450
+F 0 "#PWR0106" H 8400 1200 50  0001 C CNN
+F 1 "GND" H 8405 1277 50  0000 C CNN
+F 2 "" H 8400 1450 50  0001 C CNN
+F 3 "" H 8400 1450 50  0001 C CNN
+	1    8400 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 1450 8400 1400
+Wire Wire Line
+	8400 1400 8450 1400
+Text GLabel 2850 1650 2    50   Input ~ 0
+btn_1
+Wire Wire Line
+	2800 1650 2850 1650
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5FC09811
+P 2600 1650
+F 0 "SW2" H 2600 1935 50  0000 C CNN
+F 1 "SW_Push" H 2600 1844 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH-12mm" H 2600 1850 50  0001 C CNN
+F 3 "~" H 2600 1850 50  0001 C CNN
+	1    2600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FC0F52C
+P 2800 1800
+F 0 "R1" H 2870 1846 50  0000 L CNN
+F 1 "10K" H 2870 1755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2730 1800 50  0001 C CNN
+F 3 "~" H 2800 1800 50  0001 C CNN
+	1    2800 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 1650
+$Comp
+L power:GND #PWR0108
+U 1 1 5FC0FB91
+P 2800 1950
+AR Path="/5FC0FB91" Ref="#PWR0108"  Part="1" 
+AR Path="/5F4FB867/5FC0FB91" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0108" H 2800 1700 50  0001 C CNN
+F 1 "GND" H 2805 1777 50  0000 C CNN
+F 2 "" H 2800 1950 50  0001 C CNN
+F 3 "" H 2800 1950 50  0001 C CNN
+	1    2800 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 2300 2    50   Input ~ 0
+btn_2
+Wire Wire Line
+	2800 2300 2850 2300
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FC12A65
+P 2600 2300
+F 0 "SW1" H 2600 2585 50  0000 C CNN
+F 1 "SW_Push" H 2600 2494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH-12mm" H 2600 2500 50  0001 C CNN
+F 3 "~" H 2600 2500 50  0001 C CNN
+	1    2600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FC12A6B
+P 2800 2450
+F 0 "R2" H 2870 2496 50  0000 L CNN
+F 1 "10K" H 2870 2405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2730 2450 50  0001 C CNN
+F 3 "~" H 2800 2450 50  0001 C CNN
+	1    2800 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 2300
+$Comp
+L power:GND #PWR0110
+U 1 1 5FC12A72
+P 2800 2600
+AR Path="/5FC12A72" Ref="#PWR0110"  Part="1" 
+AR Path="/5F4FB867/5FC12A72" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0110" H 2800 2350 50  0001 C CNN
+F 1 "GND" H 2805 2427 50  0000 C CNN
+F 2 "" H 2800 2600 50  0001 C CNN
+F 3 "" H 2800 2600 50  0001 C CNN
+	1    2800 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 3100 2    50   Input ~ 0
+btn_3
+Wire Wire Line
+	2800 3100 2850 3100
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5FC13987
+P 2600 3100
+F 0 "SW3" H 2600 3385 50  0000 C CNN
+F 1 "SW_Push" H 2600 3294 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH-12mm" H 2600 3300 50  0001 C CNN
+F 3 "~" H 2600 3300 50  0001 C CNN
+	1    2600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FC1398D
+P 2800 3250
+F 0 "R3" H 2870 3296 50  0000 L CNN
+F 1 "10K" H 2870 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2730 3250 50  0001 C CNN
+F 3 "~" H 2800 3250 50  0001 C CNN
+	1    2800 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 3100
+$Comp
+L power:GND #PWR0112
+U 1 1 5FC13994
+P 2800 3400
+AR Path="/5FC13994" Ref="#PWR0112"  Part="1" 
+AR Path="/5F4FB867/5FC13994" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0112" H 2800 3150 50  0001 C CNN
+F 1 "GND" H 2805 3227 50  0000 C CNN
+F 2 "" H 2800 3400 50  0001 C CNN
+F 3 "" H 2800 3400 50  0001 C CNN
+	1    2800 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 3850 2    50   Input ~ 0
+btn_4
+Wire Wire Line
+	2800 3850 2850 3850
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5FC146DC
+P 2600 3850
+F 0 "SW4" H 2600 4135 50  0000 C CNN
+F 1 "SW_Push" H 2600 4044 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH-12mm" H 2600 4050 50  0001 C CNN
+F 3 "~" H 2600 4050 50  0001 C CNN
+	1    2600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5FC146E2
+P 2800 4000
+F 0 "R4" H 2870 4046 50  0000 L CNN
+F 1 "10K" H 2870 3955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2730 4000 50  0001 C CNN
+F 3 "~" H 2800 4000 50  0001 C CNN
+	1    2800 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 3850
+$Comp
+L power:GND #PWR0114
+U 1 1 5FC146E9
+P 2800 4150
+AR Path="/5FC146E9" Ref="#PWR0114"  Part="1" 
+AR Path="/5F4FB867/5FC146E9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0114" H 2800 3900 50  0001 C CNN
+F 1 "GND" H 2805 3977 50  0000 C CNN
+F 2 "" H 2800 4150 50  0001 C CNN
+F 3 "" H 2800 4150 50  0001 C CNN
+	1    2800 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1650 5850 1650
+Wire Wire Line
+	5250 1750 5850 1750
+$Comp
+L power:GND #PWR0115
+U 1 1 5FC17942
+P 5250 1350
+AR Path="/5FC17942" Ref="#PWR0115"  Part="1" 
+AR Path="/5F4FB867/5FC17942" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0115" H 5250 1100 50  0001 C CNN
+F 1 "GND" H 5255 1177 50  0000 C CNN
+F 2 "" H 5250 1350 50  0001 C CNN
+F 3 "" H 5250 1350 50  0001 C CNN
+	1    5250 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5FC18A9A
+P 4850 2650
+AR Path="/5FC18A9A" Ref="#PWR0116"  Part="1" 
+AR Path="/5F4FB867/5FC18A9A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0116" H 4850 2400 50  0001 C CNN
+F 1 "GND" H 4855 2477 50  0000 C CNN
+F 2 "" H 4850 2650 50  0001 C CNN
+F 3 "" H 4850 2650 50  0001 C CNN
+	1    4850 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2450 5850 2450
+Wire Wire Line
+	5850 2350 5250 2350
+Wire Wire Line
+	5250 2250 5850 2250
+Wire Wire Line
+	5850 2150 5250 2150
+Wire Wire Line
+	5250 2050 5850 2050
+Wire Wire Line
+	5250 1950 5850 1950
+Wire Wire Line
+	5850 1850 5250 1850
+Wire Wire Line
+	5250 1450 5550 1450
+Wire Wire Line
+	5550 1450 5550 1650
+Wire Wire Line
+	5850 1550 5600 1550
+Wire Wire Line
+	5600 1550 5600 1250
+Wire Wire Line
+	5600 1250 5250 1250
+$Comp
+L Display_Character:WC1602A DS1
+U 1 1 5FBEAB7A
+P 4850 1850
+F 0 "DS1" H 4700 2700 50  0000 C CNN
+F 1 "WC1602A" H 4600 2600 50  0000 C CNN
+F 2 "Display:WC1602A" H 4850 950 50  0001 C CIN
+F 3 "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf" H 5550 1850 50  0001 C CNN
+	1    4850 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0117
+U 1 1 5FBF6F83
+P 4850 1050
+AR Path="/5FBF6F83" Ref="#PWR0117"  Part="1" 
+AR Path="/5F4FB867/5FBF6F83" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0117" H 4850 900 50  0001 C CNN
+F 1 "+5V" H 4850 1200 50  0000 C CNN
+F 2 "" H 4850 1050 50  0001 C CNN
+F 3 "" H 4850 1050 50  0001 C CNN
+	1    4850 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 5FBF91D2
+P 4300 1050
+F 0 "RV1" H 4231 1096 50  0000 R CNN
+F 1 "R_POT" H 4231 1005 50  0000 R CNN
+F 2 "synth_parts:multi_turn_trimmers_blue" H 4300 1050 50  0001 C CNN
+F 3 "~" H 4300 1050 50  0001 C CNN
+	1    4300 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5FBF9DF7
+P 4150 1050
+AR Path="/5FBF9DF7" Ref="#PWR0118"  Part="1" 
+AR Path="/5F4FB867/5FBF9DF7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0118" H 4150 800 50  0001 C CNN
+F 1 "GND" H 4155 877 50  0000 C CNN
+F 2 "" H 4150 1050 50  0001 C CNN
+F 3 "" H 4150 1050 50  0001 C CNN
+	1    4150 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0119
+U 1 1 5FBFA0EC
+P 4450 1050
+AR Path="/5FBFA0EC" Ref="#PWR0119"  Part="1" 
+AR Path="/5F4FB867/5FBFA0EC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0119" H 4450 900 50  0001 C CNN
+F 1 "+5V" H 4450 1200 50  0000 C CNN
+F 2 "" H 4450 1050 50  0001 C CNN
+F 3 "" H 4450 1050 50  0001 C CNN
+	1    4450 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 1250 4450 1250
+$Comp
+L Device:R R5
+U 1 1 5FBFCB6E
+P 4300 1550
+F 0 "R5" H 4370 1596 50  0000 L CNN
+F 1 "220R" H 4370 1505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4230 1550 50  0001 C CNN
+F 3 "~" H 4300 1550 50  0001 C CNN
+	1    4300 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 1200 4300 1250
+$Comp
+L power:+5V #PWR0120
+U 1 1 5FC08966
+P 4150 1550
+AR Path="/5FC08966" Ref="#PWR0120"  Part="1" 
+AR Path="/5F4FB867/5FC08966" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0120" H 4150 1400 50  0001 C CNN
+F 1 "+5V" H 4150 1700 50  0000 C CNN
+F 2 "" H 4150 1550 50  0001 C CNN
+F 3 "" H 4150 1550 50  0001 C CNN
+	1    4150 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5FC08CD6
+P 4400 1700
+AR Path="/5FC08CD6" Ref="#PWR0121"  Part="1" 
+AR Path="/5F4FB867/5FC08CD6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0121" H 4400 1450 50  0001 C CNN
+F 1 "GND" H 4405 1527 50  0000 C CNN
+F 2 "" H 4400 1700 50  0001 C CNN
+F 3 "" H 4400 1700 50  0001 C CNN
+	1    4400 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1700 4400 1650
+Wire Wire Line
+	4400 1650 4450 1650
+$Comp
+L stroom_shield:RS485_module U1
+U 1 1 5FC12F63
+P 5200 3300
+F 0 "U1" H 5628 3696 50  0000 L CNN
+F 1 "RS485_module" H 5628 3605 50  0000 L CNN
+F 2 "stroom_shield:RS485_module" H 5200 3300 50  0001 C CNN
+F 3 "" H 5200 3300 50  0001 C CNN
+	1    5200 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5FC138D4
+P 4850 3950
+AR Path="/5FC138D4" Ref="#PWR0122"  Part="1" 
+AR Path="/5F4FB867/5FC138D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0122" H 4850 3700 50  0001 C CNN
+F 1 "GND" H 4855 3777 50  0000 C CNN
+F 2 "" H 4850 3950 50  0001 C CNN
+F 3 "" H 4850 3950 50  0001 C CNN
+	1    4850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0123
+U 1 1 5FC1441D
+P 5150 3950
+AR Path="/5FC1441D" Ref="#PWR0123"  Part="1" 
+AR Path="/5F4FB867/5FC1441D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0123" H 5150 3800 50  0001 C CNN
+F 1 "+5V" H 5150 4100 50  0000 C CNN
+F 2 "" H 5150 3950 50  0001 C CNN
+F 3 "" H 5150 3950 50  0001 C CNN
+	1    5150 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 2750 4850 2750
+Wire Wire Line
+	5150 3350 5150 2850
+Wire Wire Line
+	5150 2850 5850 2850
+Wire Wire Line
+	5050 2650 5850 2650
+Wire Wire Line
+	4850 2750 4850 3350
+Wire Wire Line
+	5050 2650 5050 3350
+Wire Wire Line
+	4950 3350 4950 2600
+Wire Wire Line
+	4950 2600 5850 2600
+Wire Wire Line
+	5850 2600 5850 2550
+Wire Wire Line
+	7400 1550 7600 1550
+$Comp
+L Regulator_Linear:L7805 U2
+U 1 1 5FC27B47
+P 8650 2100
+F 0 "U2" H 8650 2342 50  0000 C CNN
+F 1 "L7805" H 8650 2251 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 8675 1950 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 8650 2050 50  0001 C CNN
+	1    8650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0124
+U 1 1 5FC27DC0
+P 8950 2100
+AR Path="/5FC27DC0" Ref="#PWR0124"  Part="1" 
+AR Path="/5F4FB867/5FC27DC0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0124" H 8950 1950 50  0001 C CNN
+F 1 "+5V" H 8965 2273 50  0000 C CNN
+F 2 "" H 8950 2100 50  0001 C CNN
+F 3 "" H 8950 2100 50  0001 C CNN
+	1    8950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5FC28071
+P 8650 2400
+AR Path="/5FC28071" Ref="#PWR0125"  Part="1" 
+AR Path="/5F4FB867/5FC28071" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0125" H 8650 2150 50  0001 C CNN
+F 1 "GND" H 8655 2227 50  0000 C CNN
+F 2 "" H 8650 2400 50  0001 C CNN
+F 3 "" H 8650 2400 50  0001 C CNN
+	1    8650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0126
+U 1 1 5FC2856F
+P 8350 2100
+F 0 "#PWR0126" H 8350 1950 50  0001 C CNN
+F 1 "+12V" H 8365 2273 50  0000 C CNN
+F 2 "" H 8350 2100 50  0001 C CNN
+F 3 "" H 8350 2100 50  0001 C CNN
+	1    8350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5FC31054
+P 9850 2000
+F 0 "J2" H 9930 1992 50  0000 L CNN
+F 1 "pwr_in" H 9930 1901 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 9850 2000 50  0001 C CNN
+F 3 "~" H 9850 2000 50  0001 C CNN
+	1    9850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0127
+U 1 1 5FC313C7
+P 9650 2100
+F 0 "#PWR0127" H 9650 1950 50  0001 C CNN
+F 1 "+12V" H 9665 2273 50  0000 C CNN
+F 2 "" H 9650 2100 50  0001 C CNN
+F 3 "" H 9650 2100 50  0001 C CNN
+	1    9650 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 5FC31AD7
+P 9650 2000
+AR Path="/5FC31AD7" Ref="#PWR0128"  Part="1" 
+AR Path="/5F4FB867/5FC31AD7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0128" H 9650 1750 50  0001 C CNN
+F 1 "GND" H 9655 1827 50  0000 C CNN
+F 2 "" H 9650 2000 50  0001 C CNN
+F 3 "" H 9650 2000 50  0001 C CNN
+	1    9650 2000
+	-1   0    0    1   
+$EndComp
+Text GLabel 7400 1650 2    50   Input ~ 0
+btn_1
+Text GLabel 7400 1750 2    50   Input ~ 0
+btn_2
+Text GLabel 7400 1850 2    50   Input ~ 0
+btn_3
+Text GLabel 7400 1950 2    50   Input ~ 0
+btn_4
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5FC3C630
+P 9300 3250
+F 0 "J3" H 9272 3132 50  0000 R CNN
+F 1 "ultra sensor 1" H 9272 3223 50  0000 R CNN
+F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 9300 3250 50  0001 C CNN
+F 3 "~" H 9300 3250 50  0001 C CNN
+	1    9300 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 5FC3F1BE
+P 9050 3000
+AR Path="/5FC3F1BE" Ref="#PWR0129"  Part="1" 
+AR Path="/5F4FB867/5FC3F1BE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0129" H 9050 2750 50  0001 C CNN
+F 1 "GND" H 9055 2827 50  0000 C CNN
+F 2 "" H 9050 3000 50  0001 C CNN
+F 3 "" H 9050 3000 50  0001 C CNN
+	1    9050 3000
+	-1   0    0    1   
+$EndComp
+Text GLabel 9050 3150 0    50   Input ~ 0
+echo_1
+Text GLabel 9050 3250 0    50   Input ~ 0
+trig_1
+$Comp
+L power:+5V #PWR0130
+U 1 1 5FC42A6E
+P 9050 3400
+AR Path="/5FC42A6E" Ref="#PWR0130"  Part="1" 
+AR Path="/5F4FB867/5FC42A6E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0130" H 9050 3250 50  0001 C CNN
+F 1 "+5V" H 9065 3573 50  0000 C CNN
+F 2 "" H 9050 3400 50  0001 C CNN
+F 3 "" H 9050 3400 50  0001 C CNN
+	1    9050 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 3400 9050 3350
+Wire Wire Line
+	9050 3350 9100 3350
+Wire Wire Line
+	9100 3250 9050 3250
+Wire Wire Line
+	9050 3150 9100 3150
+Wire Wire Line
+	9100 3050 9050 3050
+Wire Wire Line
+	9050 3050 9050 3000
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5FC48517
+P 9300 4100
+F 0 "J4" H 9272 3982 50  0000 R CNN
+F 1 "ultra sensor 1" H 9272 4073 50  0000 R CNN
+F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 9300 4100 50  0001 C CNN
+F 3 "~" H 9300 4100 50  0001 C CNN
+	1    9300 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0131
+U 1 1 5FC4851D
+P 9050 3850
+AR Path="/5FC4851D" Ref="#PWR0131"  Part="1" 
+AR Path="/5F4FB867/5FC4851D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0131" H 9050 3600 50  0001 C CNN
+F 1 "GND" H 9055 3677 50  0000 C CNN
+F 2 "" H 9050 3850 50  0001 C CNN
+F 3 "" H 9050 3850 50  0001 C CNN
+	1    9050 3850
+	-1   0    0    1   
+$EndComp
+Text GLabel 9050 4000 0    50   Input ~ 0
+echo_2
+Text GLabel 9050 4100 0    50   Input ~ 0
+trig_2
+$Comp
+L power:+5V #PWR0132
+U 1 1 5FC48525
+P 9050 4250
+AR Path="/5FC48525" Ref="#PWR0132"  Part="1" 
+AR Path="/5F4FB867/5FC48525" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0132" H 9050 4100 50  0001 C CNN
+F 1 "+5V" H 9065 4423 50  0000 C CNN
+F 2 "" H 9050 4250 50  0001 C CNN
+F 3 "" H 9050 4250 50  0001 C CNN
+	1    9050 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 4250 9050 4200
+Wire Wire Line
+	9050 4200 9100 4200
+Wire Wire Line
+	9100 4100 9050 4100
+Wire Wire Line
+	9050 4000 9100 4000
+Wire Wire Line
+	9100 3900 9050 3900
+Wire Wire Line
+	9050 3900 9050 3850
+Text GLabel 7400 2050 2    50   Input ~ 0
+echo_1
+Text GLabel 7400 2150 2    50   Input ~ 0
+trig_1
+Text GLabel 7400 2250 2    50   Input ~ 0
+echo_2
+Text GLabel 7400 2350 2    50   Input ~ 0
+trig_2
+$Comp
+L power:+5V #PWR0107
+U 1 1 5FC62D51
+P 2400 3850
+AR Path="/5FC62D51" Ref="#PWR0107"  Part="1" 
+AR Path="/5F4FB867/5FC62D51" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0107" H 2400 3700 50  0001 C CNN
+F 1 "+5V" H 2400 4000 50  0000 C CNN
+F 2 "" H 2400 3850 50  0001 C CNN
+F 3 "" H 2400 3850 50  0001 C CNN
+	1    2400 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5FC63369
+P 2400 3100
+AR Path="/5FC63369" Ref="#PWR0109"  Part="1" 
+AR Path="/5F4FB867/5FC63369" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0109" H 2400 2950 50  0001 C CNN
+F 1 "+5V" H 2400 3250 50  0000 C CNN
+F 2 "" H 2400 3100 50  0001 C CNN
+F 3 "" H 2400 3100 50  0001 C CNN
+	1    2400 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 5FC63528
+P 2400 2300
+AR Path="/5FC63528" Ref="#PWR0111"  Part="1" 
+AR Path="/5F4FB867/5FC63528" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0111" H 2400 2150 50  0001 C CNN
+F 1 "+5V" H 2400 2450 50  0000 C CNN
+F 2 "" H 2400 2300 50  0001 C CNN
+F 3 "" H 2400 2300 50  0001 C CNN
+	1    2400 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 5FC64683
+P 2400 1650
+AR Path="/5FC64683" Ref="#PWR0113"  Part="1" 
+AR Path="/5F4FB867/5FC64683" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0113" H 2400 1500 50  0001 C CNN
+F 1 "+5V" H 2400 1800 50  0000 C CNN
+F 2 "" H 2400 1650 50  0001 C CNN
+F 3 "" H 2400 1650 50  0001 C CNN
+	1    2400 1650
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

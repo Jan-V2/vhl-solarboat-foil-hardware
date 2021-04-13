@@ -1,0 +1,4 @@
+lcd 25 hoog x breedte module -8 2.5 WC1602A
+knop 12 mm diameter 6.5 2.5 Button_Switch_THT:SW_PUSH-12mm
+
+ rect (at 0 0) (size 80 26) (drill 1)

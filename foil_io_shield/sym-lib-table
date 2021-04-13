@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name stroom_shield)(type Legacy)(uri ${KIPRJMOD}/stroom_shield.lib)(options "")(descr ""))
+  (lib (name NUCLEO-F446RE)(type Legacy)(uri ${KIPRJMOD}/NUCLEO-F446RE.lib)(options "")(descr ""))
+)

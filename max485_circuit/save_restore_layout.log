@@ -1,0 +1,104 @@
+04-06 00:28:56 save_restore_layout.action_save_restore_layout 160:Plugin executed on: 'linux'
+04-06 00:28:56 save_restore_layout.action_save_restore_layout 161:Plugin executed with python version: '3.8.5 (default, Jan 27 2021, 15:41:15) \n[GCC 9.3.0]'
+04-06 00:28:56 save_restore_layout.action_save_restore_layout 162:KiCad build version: Unknown
+04-06 00:28:56 save_restore_layout.action_save_restore_layout 163:Save/Restore Layout plugin version: 51 started
+04-06 00:28:57 save_restore_layout.action_save_restore_layout 274:Restore layout chosen
+04-06 00:28:58 save_restore_layout.save_restore_layout 393:Getting board info
+04-06 00:28:58 save_restore_layout.save_restore_layout 395:Getting schematics info
+04-06 00:28:58 save_restore_layout.save_restore_layout 180:getting project hierarchy from schematics
+04-06 00:28:58 save_restore_layout.save_restore_layout 182:Project hierarchy looks like:
+{'606F1EAE': ['testestestest', '/home/john/code/circuits/max485_circuit/MAX485.sch'], '606BACEA': ['sheet606BACE8', '/home/john/code/circuits/max485_circuit/MAX485.sch']}
+04-06 00:28:58 save_restore_layout.save_restore_layout 397:Getting layout info
+04-06 00:28:58 save_restore_layout.save_restore_layout 256:getting a list of all footprints on board
+04-06 00:28:58 save_restore_layout.save_restore_layout 399:Updating layout info with schematics info
+04-06 00:28:58 save_restore_layout.save_restore_layout 739:Loading saved design
+04-06 00:28:58 save_restore_layout.save_restore_layout 746:Source level is:['MAX485.sch']
+04-06 00:28:58 save_restore_layout.save_restore_layout 753:Destination footprint is:'U301'
+04-06 00:28:58 save_restore_layout.save_restore_layout 754:Destination levels available are:['MAX485.sch']
+04-06 00:28:58 save_restore_layout.save_restore_layout 765:Destination level is:['MAX485.sch']
+04-06 00:28:58 save_restore_layout.save_restore_layout 770:All sch files required are: ['MAX485.sch']
+04-06 00:28:58 save_restore_layout.save_restore_layout 772:Getting current schematics hash
+04-06 00:28:58 save_restore_layout.save_restore_layout 782:Source hash is:'b5bc0729bba1393c9262f981ad0150fc'
+04-06 00:28:58 save_restore_layout.save_restore_layout 783:Destination hash is: 'b5bc0729bba1393c9262f981ad0150fc'
+04-06 00:28:58 save_restore_layout.save_restore_layout 800:Get layout data from saved board
+04-06 00:28:58 save_restore_layout.save_restore_layout 256:getting a list of all footprints on board
+04-06 00:28:58 save_restore_layout.save_restore_layout 504:Replicating footprints
+04-06 00:28:58 save_restore_layout.save_restore_layout 607:Replicating tracks
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 1, 'GND'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 1, 'GND'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 2, '+5V'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 10, 'Net-(J301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 11, 'Net-(J301-Pad1)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 12, 'Net-(JP301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 12, 'Net-(JP301-Pad2)'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 21, '/sheet606BACE8/Driver_in'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 21, '/sheet606BACE8/Driver_in'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 21, '/sheet606BACE8/Driver_in'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 21, '/sheet606BACE8/Driver_in'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 21, '/sheet606BACE8/Driver_in'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 22, '/sheet606BACE8/Driver_enable'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 22, '/sheet606BACE8/Driver_enable'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 22, '/sheet606BACE8/Driver_enable'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 22, '/sheet606BACE8/Driver_enable'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 22, '/sheet606BACE8/Driver_enable'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 22, '/sheet606BACE8/Driver_enable'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 23, '/sheet606BACE8/Reciever_enable'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 23, '/sheet606BACE8/Reciever_enable'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 23, '/sheet606BACE8/Reciever_enable'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 23, '/sheet606BACE8/Reciever_enable'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 23, '/sheet606BACE8/Reciever_enable'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 24, '/sheet606BACE8/Reciever_out'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 24, '/sheet606BACE8/Reciever_out'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 24, '/sheet606BACE8/Reciever_out'
+04-06 00:28:58 save_restore_layout.save_restore_layout 643:Setting track net to: 24, '/sheet606BACE8/Reciever_out'
+04-06 00:28:58 save_restore_layout.save_restore_layout 649:Replicating zones
+04-06 00:28:58 save_restore_layout.save_restore_layout 703:Replicating text
+04-06 00:28:58 save_restore_layout.save_restore_layout 720:Replicating drawings

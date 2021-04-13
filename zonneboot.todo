@@ -1,0 +1,22 @@
+pcbs:
+  ☐ voorvleugel hardware hergebruiken voor achtervleugel
+  ☐ gyroscoop via aparte arduino aan can
+  ☐ nieuwe versie van het scherm waarbij hij niet verkeert om zit met 4 regels
+  ☐ nieuwe versie schem met het fancy scherm met can na testen
+  ☐ knoppen scherm omdraaien en pulldowns weghalen
+
+bestellijst voor portugal:
+  mouser:
+    ✔ caps voor achtervleugel @done(2021-04-12 21:26) @project(bestellijst voor portugal / mouser)
+    ✔ motorbord voor achtervleugel @done(2021-04-12 21:17) @project(bestellijst voor portugal / mouser)
+    ✔ extra stm voor achtervleugel @done(2021-04-12 21:17) @project(bestellijst voor portugal / mouser)
+    ✔ extra can chips @done(2021-04-12 21:17) @project(bestellijst voor portugal / mouser)
+  ali:
+    ✔ nieuw scherm met 4 regels @done(2021-04-12 21:17) @project(bestellijst voor portugal / ali)
+    ✔ 2 can bus shields @done(2021-04-12 21:17) @project(bestellijst voor portugal / ali)
+    ✔ 4 polige screw terminals @done(2021-04-12 21:17) @project(bestellijst voor portugal / ali)
+
+  pcb:
+    ☐ nieuw pcb scherm
+    ☐ pcb gyroscoop
+    ☐ nieuwe foil io pcb
