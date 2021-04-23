@@ -1,0 +1,5 @@
+04-13 14:55:27 swap_units.action_swap_units 87:Plugin executed on: 'linux'
+04-13 14:55:27 swap_units.action_swap_units 88:Plugin executed with python version: '3.8.5 (default, Jan 27 2021, 15:41:15) \n[GCC 9.3.0]'
+04-13 14:55:27 swap_units.action_swap_units 89:KiCad build version: Unknown
+04-13 14:55:27 swap_units.action_swap_units 90:Swap units plugin version: 37 started
+04-13 14:55:28 swap_units.action_swap_units 106:Action plugin canceled as eeschema was not closed

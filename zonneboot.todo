@@ -1,9 +1,8 @@
 pcbs:
-  ☐ voorvleugel hardware hergebruiken voor achtervleugel
-  ☐ gyroscoop via aparte arduino aan can
-  ☐ nieuwe versie van het scherm waarbij hij niet verkeert om zit met 4 regels
+  ✔ voorvleugel hardware hergebruiken voor achtervleugel @done(2021-04-23 13:58) @project(pcbs)
+  ✔ gyroscoop via aparte arduino aan can @done(2021-04-23 13:58) @project(pcbs)
   ☐ nieuwe versie schem met het fancy scherm met can na testen
-  ☐ knoppen scherm omdraaien en pulldowns weghalen
+  ✔ knoppen scherm omdraaien en pulldowns weghalen @done(2021-04-23 13:58) @project(pcbs)
 
 bestellijst voor portugal:
   mouser:
@@ -18,5 +17,19 @@ bestellijst voor portugal:
 
   pcb:
     ☐ nieuw pcb scherm
-    ☐ pcb gyroscoop
-    ☐ nieuwe foil io pcb
+    ✔ pcb gyroscoop @done(2021-04-13 16:51) @project(bestellijst voor portugal / pcb)
+
+verbeterpunten foil pcb:
+  ✔ scherm op de kop @done(2021-04-22 01:59) @project(verbeterpunten foil pcb)
+  ✔ footprint scherm checken @done(2021-04-23 13:58) @project(verbeterpunten foil pcb)
+  ✔ stm geintegreed op het bord @done(2021-04-23 13:58) @project(verbeterpunten foil pcb)
+    ✔ check footprint of buttons @done(2021-04-22 01:15) @project(verbeterpunten foil pcb)
+    ✔ check footprint of led @done(2021-04-22 01:15) @project(verbeterpunten foil pcb)
+    ✔ layout doen @done(2021-04-22 01:15) @project(verbeterpunten foil pcb)
+  ✔ van rs485 naar can @done(2021-04-18 21:07) @project(verbeterpunten foil pcb)
+  ✔ verkeerde voetprint voor programmeer header en ultrasone sensor connector @done(2021-04-18 21:07) @project(verbeterpunten foil pcb)
+  ✔ programeer header in de weg voor debug poort @done(2021-04-22 01:59) @project(verbeterpunten foil pcb)
+  ✔ pulldowns op de knoppen niet nodig @done(2021-04-18 20:29) @project(verbeterpunten foil pcb)
+  ✔ knoppen moeten active high zijn ipv active low @done(2021-04-18 20:29) @project(verbeterpunten foil pcb)
+  ☐ de enclosure moet iets breder
+  ✔ usb naar serial converter, en usb connector op het bord @done(2021-04-18 21:07) @project(verbeterpunten foil pcb)

@@ -24,21 +24,6 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf" H 2300 1575 50 
 	1    2300 1575
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Connector:RJ45 J201
-U 1 1 6074BA6F
-P 2450 3125
-F 0 "J201" H 2507 3792 50  0000 C CNN
-F 1 "RJ45" H 2507 3701 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 2450 3150 50  0001 C CNN
-F 3 "~" V 2450 3150 50  0001 C CNN
-	1    2450 3125
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2150 2725 2150 2675
-Wire Wire Line
-	2050 2675 2050 2725
 Wire Wire Line
 	1450 1775 1450 1475
 Wire Wire Line
@@ -58,9 +43,11 @@ F 3 "" H 1550 2075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nucleo_can-rescue:PESD5V0L2UU_esd_diode U201
+L zonneboot_parts:PESD5V0L2UU_esd_diode U201
 U 1 1 6074BA81
 P 1750 1875
+AR Path="/6074BA81" Ref="U201"  Part="1" 
+AR Path="/6074414E/6074BA81" Ref="U201"  Part="1" 
 F 0 "U201" V 1746 1897 50  0000 R CNN
 F 1 "PESD5V0L2UU_esd_diode" V 1550 2525 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering" H 1750 1875 50  0001 C CNN
@@ -342,24 +329,13 @@ F 3 "" H 5450 2375 50  0001 C CNN
 	1    5450 2375
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J202
-U 1 1 6074BB1B
-P 3100 3375
-F 0 "J202" V 2972 3455 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" V 3063 3455 50  0000 L CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical" H 3100 3375 50  0001 C CNN
-F 3 "~" H 3100 3375 50  0001 C CNN
-	1    3100 3375
-	0    1    1    0   
-$EndComp
-Text Label 3100 3175 1    50   ~ 0
+Text Label 2600 3000 1    50   ~ 0
 can_h
-Text Label 3000 3175 1    50   ~ 0
+Text Label 2500 3000 1    50   ~ 0
 can_l
-Text Label 2150 2675 1    50   ~ 0
+Text Label 2400 3000 1    50   ~ 0
 can_h
-Text Label 2050 2675 1    50   ~ 0
+Text Label 2300 3000 1    50   ~ 0
 can_l
 Text Label 1400 1475 2    50   ~ 0
 can_h
@@ -416,4 +392,15 @@ Wire Wire Line
 Connection ~ 1525 1475
 Wire Wire Line
 	1525 1475 1800 1475
+$Comp
+L Connector:Screw_Terminal_01x04 J201
+U 1 1 6076236F
+P 2500 3200
+F 0 "J201" V 2372 3380 50  0000 L CNN
+F 1 "can" V 2463 3380 50  0000 L CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_4-G-5.08_1x04_P5.08mm_Vertical" H 2500 3200 50  0001 C CNN
+F 3 "~" H 2500 3200 50  0001 C CNN
+	1    2500 3200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

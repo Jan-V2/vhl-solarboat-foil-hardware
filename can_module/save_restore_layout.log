@@ -1,42 +1,41 @@
-04-11 01:22:03 save_restore_layout.action_save_restore_layout 160:Plugin executed on: 'linux'
-04-11 01:22:03 save_restore_layout.action_save_restore_layout 161:Plugin executed with python version: '3.8.5 (default, Jan 27 2021, 15:41:15) \n[GCC 9.3.0]'
-04-11 01:22:03 save_restore_layout.action_save_restore_layout 162:KiCad build version: Unknown
-04-11 01:22:03 save_restore_layout.action_save_restore_layout 163:Save/Restore Layout plugin version: 51 started
-04-11 01:22:05 save_restore_layout.action_save_restore_layout 200:Save layout chosen
-04-11 01:22:05 save_restore_layout.save_restore_layout 845:Saving the current board temporary in order to leave current layout intact
-04-11 01:22:05 save_restore_layout.save_restore_layout 855:Getting schematics info
-04-11 01:22:05 save_restore_layout.save_restore_layout 180:getting project hierarchy from schematics
-04-11 01:22:05 save_restore_layout.save_restore_layout 182:Project hierarchy looks like:
+04-13 16:00:15 save_restore_layout.action_save_restore_layout 160:Plugin executed on: 'linux'
+04-13 16:00:15 save_restore_layout.action_save_restore_layout 161:Plugin executed with python version: '3.8.5 (default, Jan 27 2021, 15:41:15) \n[GCC 9.3.0]'
+04-13 16:00:15 save_restore_layout.action_save_restore_layout 162:KiCad build version: Unknown
+04-13 16:00:15 save_restore_layout.action_save_restore_layout 163:Save/Restore Layout plugin version: 51 started
+04-13 16:00:17 save_restore_layout.action_save_restore_layout 200:Save layout chosen
+04-13 16:00:17 save_restore_layout.save_restore_layout 845:Saving the current board temporary in order to leave current layout intact
+04-13 16:00:17 save_restore_layout.save_restore_layout 855:Getting schematics info
+04-13 16:00:17 save_restore_layout.save_restore_layout 180:getting project hierarchy from schematics
+04-13 16:00:17 save_restore_layout.save_restore_layout 182:Project hierarchy looks like:
 {'6074414E': ['Sheet6074414D', '/home/john/code/zonneboot/foils/can_module/can_mcp2515.sch']}
-04-11 01:22:05 save_restore_layout.save_restore_layout 857:Getting layout info
-04-11 01:22:05 save_restore_layout.save_restore_layout 256:getting a list of all footprints on board
-04-11 01:22:05 save_restore_layout.save_restore_layout 859:Updating layout info with schematics info
-04-11 01:22:06 root 53:highlighting module: 'R203'
-04-11 01:22:06 root 53:highlighting module: 'termination'
-04-11 01:22:06 root 53:highlighting module: 'U203'
-04-11 01:22:06 root 53:highlighting module: 'Y201'
-04-11 01:22:06 root 53:highlighting module: 'U202'
-04-11 01:22:06 root 53:highlighting module: 'U201'
-04-11 01:22:06 root 53:highlighting module: 'R202'
-04-11 01:22:06 root 53:highlighting module: 'R201'
-04-11 01:22:06 root 53:highlighting module: 'J202'
-04-11 01:22:06 root 53:highlighting module: 'J201'
-04-11 01:22:06 root 53:highlighting module: 'C204'
-04-11 01:22:06 root 53:highlighting module: 'C203'
-04-11 01:22:06 root 53:highlighting module: 'C202'
-04-11 01:22:06 root 53:highlighting module: 'C201'
-04-11 01:22:13 save_restore_layout.save_restore_layout 941:Saving layout for level: ['Sheet6074414D']
-04-11 01:22:13 save_restore_layout.save_restore_layout 942:Calculating hash of the layout schematics
-04-11 01:22:13 save_restore_layout.save_restore_layout 946:Saving hash for files: ['can_mcp2515.sch']
-04-11 01:22:13 root 956:Source modules are: ['R203', 'termination', 'U203', 'Y201', 'U202', 'U201', 'R202', 'R201', 'J202', 'J201', 'C204', 'C203', 'C202', 'C201']
-04-11 01:22:13 save_restore_layout.save_restore_layout 966:Removing everything else from the layout
-04-11 01:22:13 save_restore_layout.save_restore_layout 880:Removing text
-04-11 01:22:13 save_restore_layout.save_restore_layout 863:Removing drawing
-04-11 01:22:13 save_restore_layout.save_restore_layout 897:Removing zones
-04-11 01:22:13 save_restore_layout.save_restore_layout 913:Removing tracks
-04-11 01:22:13 save_restore_layout.save_restore_layout 915:Bounding box points: (28479999, 61620001, 100289999, 131075001)
-04-11 01:22:13 save_restore_layout.save_restore_layout 936:Removing modules
-04-11 01:22:13 save_restore_layout.save_restore_layout 985:Saving layout in temporary file
-04-11 01:22:13 save_restore_layout.save_restore_layout 988:Reading layout as text
-04-11 01:22:13 save_restore_layout.save_restore_layout 995:Saving layout data
-04-11 01:22:13 save_restore_layout.save_restore_layout 1002:Succesfully saved the layout
+04-13 16:00:17 save_restore_layout.save_restore_layout 857:Getting layout info
+04-13 16:00:17 save_restore_layout.save_restore_layout 256:getting a list of all footprints on board
+04-13 16:00:17 save_restore_layout.save_restore_layout 859:Updating layout info with schematics info
+04-13 16:00:17 root 53:highlighting module: 'J201'
+04-13 16:00:17 root 53:highlighting module: 'R203'
+04-13 16:00:17 root 53:highlighting module: 'JP201'
+04-13 16:00:17 root 53:highlighting module: 'U203'
+04-13 16:00:17 root 53:highlighting module: 'Y201'
+04-13 16:00:17 root 53:highlighting module: 'U202'
+04-13 16:00:17 root 53:highlighting module: 'U201'
+04-13 16:00:17 root 53:highlighting module: 'R202'
+04-13 16:00:17 root 53:highlighting module: 'R201'
+04-13 16:00:17 root 53:highlighting module: 'C204'
+04-13 16:00:17 root 53:highlighting module: 'C203'
+04-13 16:00:17 root 53:highlighting module: 'C202'
+04-13 16:00:17 root 53:highlighting module: 'C201'
+04-13 16:00:22 save_restore_layout.save_restore_layout 941:Saving layout for level: ['Sheet6074414D']
+04-13 16:00:22 save_restore_layout.save_restore_layout 942:Calculating hash of the layout schematics
+04-13 16:00:22 save_restore_layout.save_restore_layout 946:Saving hash for files: ['can_mcp2515.sch']
+04-13 16:00:22 root 956:Source modules are: ['J201', 'R203', 'JP201', 'U203', 'Y201', 'U202', 'U201', 'R202', 'R201', 'C204', 'C203', 'C202', 'C201']
+04-13 16:00:22 save_restore_layout.save_restore_layout 966:Removing everything else from the layout
+04-13 16:00:22 save_restore_layout.save_restore_layout 880:Removing text
+04-13 16:00:22 save_restore_layout.save_restore_layout 863:Removing drawing
+04-13 16:00:22 save_restore_layout.save_restore_layout 897:Removing zones
+04-13 16:00:22 save_restore_layout.save_restore_layout 913:Removing tracks
+04-13 16:00:22 save_restore_layout.save_restore_layout 915:Bounding box points: (36154999, 58725001, 97729999, 130645001)
+04-13 16:00:22 save_restore_layout.save_restore_layout 936:Removing modules
+04-13 16:00:22 save_restore_layout.save_restore_layout 985:Saving layout in temporary file
+04-13 16:00:22 save_restore_layout.save_restore_layout 988:Reading layout as text
+04-13 16:00:22 save_restore_layout.save_restore_layout 995:Saving layout data
+04-13 16:00:22 save_restore_layout.save_restore_layout 1002:Succesfully saved the layout

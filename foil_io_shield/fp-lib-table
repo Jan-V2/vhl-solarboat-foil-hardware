@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Socket_Arduino_Uno)(type KiCad)(uri "$(KIPRJMOD)/Socket_Arduino_Uno.pretty")(options "")(descr ""))
   (lib (name stroom_shield)(type KiCad)(uri ${KIPRJMOD}/stroom_shield.pretty)(options "")(descr ""))
+  (lib (name zonneboot_parts)(type KiCad)(uri ${KIPRJMOD}/zonneboot_parts.pretty)(options "")(descr ""))
 )

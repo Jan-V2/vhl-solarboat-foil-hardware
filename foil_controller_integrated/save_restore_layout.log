@@ -1,0 +1,25 @@
+04-22 17:24:46 save_restore_layout.action_save_restore_layout 160:Plugin executed on: 'linux'
+04-22 17:24:46 save_restore_layout.action_save_restore_layout 161:Plugin executed with python version: '3.8.5 (default, Jan 27 2021, 15:41:15) \n[GCC 9.3.0]'
+04-22 17:24:46 save_restore_layout.action_save_restore_layout 162:KiCad build version: Unknown
+04-22 17:24:46 save_restore_layout.action_save_restore_layout 163:Save/Restore Layout plugin version: 51 started
+04-22 17:24:47 save_restore_layout.action_save_restore_layout 274:Restore layout chosen
+04-22 17:24:55 save_restore_layout.save_restore_layout 393:Getting board info
+04-22 17:24:55 save_restore_layout.save_restore_layout 395:Getting schematics info
+04-22 17:24:55 save_restore_layout.save_restore_layout 180:getting project hierarchy from schematics
+04-22 17:24:55 save_restore_layout.save_restore_layout 182:Project hierarchy looks like:
+{'60804333': ['Sheet60804332', '/home/john/code/zonneboot/foils/foil_controller_integrated/can_mcp2515.sch'], '6080570B': ['Sheet6080570A', '/home/john/code/zonneboot/foils/foil_controller_integrated/ftdi_ser_to_usb.sch'], '6082832D': ['sheet60828324', '/home/john/code/zonneboot/foils/foil_controller_integrated/can_mcp2515.sch'], '6081DA5B': ['Sheet6081DA5A', '/home/john/code/zonneboot/foils/foil_controller_integrated/stm32.sch']}
+04-22 17:24:55 save_restore_layout.save_restore_layout 397:Getting layout info
+04-22 17:24:55 save_restore_layout.save_restore_layout 256:getting a list of all footprints on board
+04-22 17:24:55 save_restore_layout.save_restore_layout 399:Updating layout info with schematics info
+04-22 17:24:55 save_restore_layout.save_restore_layout 739:Loading saved design
+04-22 17:24:55 save_restore_layout.save_restore_layout 746:Source level is:['stm32.sch']
+04-22 17:24:55 save_restore_layout.save_restore_layout 753:Destination footprint is:'U101'
+04-22 17:24:55 save_restore_layout.save_restore_layout 754:Destination levels available are:[]
+04-22 17:24:57 save_restore_layout.action_save_restore_layout 311:Error when restoring layout
+Traceback (most recent call last):
+  File "/home/john/.kicad_plugins/save_restore_layout/action_save_restore_layout.py", line 304, in Run
+    restore_layout.restore_layout(pivot_mod, layout_file)
+  File "/home/john/.kicad_plugins/save_restore_layout/save_restore_layout.py", line 758, in restore_layout
+    raise LookupError(  "Destination hierarchy: " + repr(anchor_mod.filename) + "\n"
+LookupError: Destination hierarchy: []
+does not match source hierarchy: ['stm32.sch']

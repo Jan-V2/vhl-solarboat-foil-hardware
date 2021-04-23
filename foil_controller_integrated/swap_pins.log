@@ -1,0 +1,5 @@
+04-22 17:13:28 swap_pins.action_swap_pins 87:Plugin executed on: 'linux'
+04-22 17:13:28 swap_pins.action_swap_pins 88:Plugin executed with python version: '3.8.5 (default, Jan 27 2021, 15:41:15) \n[GCC 9.3.0]'
+04-22 17:13:28 swap_pins.action_swap_pins 89:KiCad build version: Unknown
+04-22 17:13:28 swap_pins.action_swap_pins 90:Swap pins plugin version: 15 started
+04-22 17:13:29 swap_pins.action_swap_pins 106:Action plugin canceled as eeschema was not closed

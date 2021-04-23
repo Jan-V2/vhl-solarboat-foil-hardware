@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date "lun. 30 mars 2015"
 Rev ""
@@ -223,17 +223,6 @@ Wire Wire Line
 	5950 4650 6000 4650
 Wire Wire Line
 	6000 4650 6000 4700
-$Comp
-L stroom_shield:RS485_module U3
-U 1 1 5FB8018B
-P 3400 3600
-F 0 "U3" H 3828 3996 50  0000 L CNN
-F 1 "RS485_module" H 3828 3905 50  0000 L CNN
-F 2 "stroom_shield:RS485_module" H 3400 3600 50  0001 C CNN
-F 3 "" H 3400 3600 50  0001 C CNN
-	1    3400 3600
-	1    0    0    -1  
-$EndComp
 Text Label 6950 3000 2    50   ~ 0
 uart_6_tx
 Text Label 6950 3100 2    50   ~ 0
@@ -320,9 +309,9 @@ Text Label 1150 3850 3    50   ~ 0
 enc_2_A
 Text Label 1150 3750 1    50   ~ 0
 enc_2_B
-Text Label 6950 4500 2    50   ~ 0
+Text Label 6950 3600 2    50   ~ 0
 enc_2_B
-Text Label 6950 4400 2    50   ~ 0
+Text Label 6950 3500 2    50   ~ 0
 enc_2_A
 $Comp
 L power:+5V #PWR0105
@@ -339,40 +328,6 @@ Wire Wire Line
 	5950 4050 6200 4050
 Wire Wire Line
 	6200 4050 6200 3900
-$Comp
-L power:+5V #PWR0106
-U 1 1 5FC172E9
-P 3450 2950
-F 0 "#PWR0106" H 3450 2800 50  0001 C CNN
-F 1 "+5V" H 3465 3123 50  0000 C CNN
-F 2 "" H 3450 2950 50  0001 C CNN
-F 3 "" H 3450 2950 50  0001 C CNN
-	1    3450 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 5FC19757
-P 3750 2950
-F 0 "#PWR0110" H 3750 2700 50  0001 C CNN
-F 1 "GND" H 3755 2777 50  0000 C CNN
-F 2 "" H 3750 2950 50  0001 C CNN
-F 3 "" H 3750 2950 50  0001 C CNN
-	1    3750 2950
-	-1   0    0    1   
-$EndComp
-Text Label 3550 3550 3    50   ~ 0
-recive_enable
-Text Label 3650 3550 3    50   ~ 0
-driver_enable
-Text Label 6950 4300 2    50   ~ 0
-recive_enable
-Text Label 8350 2200 0    50   ~ 0
-driver_enable
-Text Label 3750 3550 3    50   ~ 0
-uart_6_tx
-Text Label 3450 3550 3    50   ~ 0
-uart_6_rx
 $Comp
 L Regulator_Linear:LM7805_TO220 U1
 U 1 1 5FBFB72B
@@ -465,4 +420,47 @@ F 3 "~" H 950 3850 50  0001 C CNN
 	1    950  3850
 	0    -1   -1   0   
 $EndComp
+$Sheet
+S 3400 2900 625  550 
+U 607FE929
+F0 "Sheet607FE928" 50
+F1 "can_mcp2515.sch" 50
+F2 "can_intr" I R 4025 2950 50 
+F3 "can_spi_clk" I R 4025 3025 50 
+F4 "can_spi_cs" I R 4025 3100 50 
+F5 "can_spi_miso" I R 4025 3175 50 
+F6 "can_spi_mosi" I R 4025 3250 50 
+F7 "can_h" I R 4025 3325 50 
+F8 "can_l" I R 4025 3400 50 
+$EndSheet
+Text Label 6950 4500 2    50   ~ 0
+SPI2_MOSI
+Text Label 6950 4400 2    50   ~ 0
+SPI2_MISO
+Text Label 6950 4300 2    50   ~ 0
+SPI2_CLK
+Text Label 6950 4200 2    50   ~ 0
+CAN_CS
+Text Label 4125 3250 0    50   ~ 0
+SPI2_MOSI
+Text Label 4125 3175 0    50   ~ 0
+SPI2_MISO
+Text Label 4125 3025 0    50   ~ 0
+SPI2_CLK
+Text Label 4125 3100 0    50   ~ 0
+CAN_CS
+Wire Wire Line
+	4125 3250 4025 3250
+Wire Wire Line
+	4025 3175 4125 3175
+Wire Wire Line
+	4025 3100 4125 3100
+Wire Wire Line
+	4025 3025 4125 3025
+Text Label 6950 4100 2    50   ~ 0
+CAN_INTR
+Text Label 4125 2950 0    50   ~ 0
+CAN_INTR
+Wire Wire Line
+	4125 2950 4025 2950
 $EndSCHEMATC
