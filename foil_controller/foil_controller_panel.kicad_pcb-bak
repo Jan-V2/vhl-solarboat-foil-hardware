@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 12)
-    (tracks 0)
+    (drawings 8)
+    (tracks 2)
     (zones 0)
-    (modules 7)
+    (modules 6)
     (nets 1)
   )
 
@@ -140,25 +140,6 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5F271C4B)
-    (at 36 49.6)
-    (descr hole)
-    (tags hole)
-    (attr virtual)
-    (fp_text reference H1 (at 0 -3.8) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value hole (at 0 3.8) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 3.05 0) (layer F.CrtYd) (width 0.05))
-    (fp_circle (center 0 0) (end 2.8 0) (layer Cmts.User) (width 0.15))
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 np_thru_hole circle (at 0 0) (size 4.5 4.5) (drill 4.5) (layers *.Cu *.Mask))
-  )
-
-  (module MountingHole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5F271C4B)
     (at 29.9 106.5)
     (descr hole)
     (tags hole)
@@ -238,13 +219,12 @@
   (gr_line (start 5.5 -16) (end 5.5 28) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 84.5 -16) (end 5.5 -16) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 84.5 28) (end 84.5 -16) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 46.5 67) (end 60.5 67) (layer Edge.Cuts) (width 0.05) (tstamp 608377B4))
-  (gr_line (start 46.5 52) (end 46.5 67) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 60.5 52) (end 46.5 52) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 60.5 67) (end 60.5 52) (layer Edge.Cuts) (width 0.05))
   (gr_line (start -5 120) (end -5 -32) (layer Edge.Cuts) (width 0.05) (tstamp 5FBEBA89))
   (gr_line (start 95 120) (end -5 120) (layer Edge.Cuts) (width 0.05) (tstamp 5FBEE8A7))
   (gr_line (start 95 -32) (end 95 120) (layer Edge.Cuts) (width 0.05))
   (gr_line (start -5 -32) (end 95 -32) (layer Edge.Cuts) (width 0.05) (tstamp 6081EFC5))
+
+  (segment (start 91 -26) (end 91 -25.5) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 91.5 -26) (end 91.5 -25.5) (width 0.25) (layer B.Cu) (net 0))
 
 )

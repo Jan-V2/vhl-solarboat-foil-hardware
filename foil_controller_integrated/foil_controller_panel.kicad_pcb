@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 12)
-    (tracks 0)
+    (tracks 2)
     (zones 0)
     (modules 7)
     (nets 1)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "../../gerb_out/"))
   )
 
   (net 0 "")
@@ -246,5 +246,8 @@
   (gr_line (start 95 120) (end -5 120) (layer Edge.Cuts) (width 0.05) (tstamp 5FBEE8A7))
   (gr_line (start 95 -32) (end 95 120) (layer Edge.Cuts) (width 0.05))
   (gr_line (start -5 -32) (end 95 -32) (layer Edge.Cuts) (width 0.05) (tstamp 6081EFC5))
+
+  (segment (start 91.5 -27) (end 91.5 -26.5) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 92 -27) (end 92 -27.5) (width 0.25) (layer B.Cu) (net 0))
 
 )
