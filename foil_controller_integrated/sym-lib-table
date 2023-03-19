@@ -2,4 +2,5 @@
   (lib (name YAAJ_STM32)(type Legacy)(uri ${KIPRJMOD}/YAAJ_STM32.lib)(options "")(descr ""))
   (lib (name stroom_shield)(type Legacy)(uri ${KIPRJMOD}/stroom_shield.lib)(options "")(descr ""))
   (lib (name zonneboot_parts)(type Legacy)(uri ${KIPRJMOD}/zonneboot_parts.lib)(options "")(descr ""))
+  (lib (name foil_controller-rescue)(type Legacy)(uri ${KIPRJMOD}/foil_controller-rescue.lib)(options "")(descr ""))
 )
